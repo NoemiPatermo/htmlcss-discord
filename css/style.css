@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    font-style: 'Poppins' ;
+    font-style: 'Poppins';
 }
 .container{
     max-width: 1200px;
@@ -26,11 +26,15 @@ header{
 }
 .top-bar{
     height: 150px;
-    border: 10px  solid black;
+    border: 5px  solid black;
 }
 li{
     list-style: none;
     display: inline-block;
+    font-size: 20px;
+    color: ghostwhite;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 .logo{
     width: 25%;
@@ -48,4 +52,10 @@ li{
     width: 25%;
     display: inline-block;
     padding-top: 20px;
+    padding-right: 10px;  
+}
+#enter{
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 60px;  
 }
