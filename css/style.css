@@ -4,18 +4,19 @@
     padding: 0;
 }
 body{
-    font-style: 'Poppins';
+    font-family: 'Poppins';
 }
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    
 }
+
 header{
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: cover;
     height: 500px;
+    position: relative;
 }
 .clearfix::after{
     content: "";
@@ -26,13 +27,13 @@ header{
     float: left;
 }
 .top-bar{
-    height: 150px;
-    border: 5px  solid black;
+    height: 100px;
+    border: 3px  solid black;
 }
 li{
     list-style: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     color: ghostwhite;
     padding-left: 15px;
     padding-right: 10px;
@@ -57,15 +58,34 @@ li{
 }
 #enter{
     margin-left: 20px;
-    border-radius: 10px;
-    width: 60px;  
+    border-radius: 15px;
+    width: 90px;  
+    height: 30px;
 }
 .testo{
     border: 5px solid black;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
     height: 300px;
-    width: 500px;
+    width: 700px;
     text-align: center;
-    margin-top: 30px;
+    line-height: 50px;
+    color: ghostwhite;
     
     
+}
+.button-1 , .button-2{
+    width: 200px;
+    border-radius: 15px;
+    height: 45px;
+    font-size: 15px;  
+}
+
+
+.button-2{
+    background-color: black;
+    color: ghostwhite;
+    width: 220px;
 }
