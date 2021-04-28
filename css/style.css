@@ -88,13 +88,18 @@ li{
     color: ghostwhite;
     width: 220px;
 }
+.container-2{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sezione-2{
+    width: 80%;
+}
 .study-group{
-    width: 55%;
+    width: 50%;
     height: 100%;
-    padding-top: 400px;
 }
 .text-study{
-width: 45%;
+width: 50%;
 height: 100%;
-padding: 190px;
 }
