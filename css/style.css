@@ -88,18 +88,20 @@ li{
     color: ghostwhite;
     width: 220px;
 }
-.container-2{
+.sezione-2{
     max-width: 1200px;
     margin: 0 auto;
 }
 .sezione-2{
-    width: 80%;
+    width: 100%;
+    border: 3px solid black;
 }
-.study-group{
-    width: 50%;
-    height: 100%;
+.img-group{
+    width: 60%;   
 }
-.text-study{
-width: 50%;
-height: 100%;
+.text-group{
+width: 40%;
+padding-top: 30px;
+padding-left: 70px;
+padding-right: 70px;
 }
