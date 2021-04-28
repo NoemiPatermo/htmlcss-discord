@@ -56,7 +56,7 @@ li{
     padding-top: 20px;
     padding-right: 10px;  
 }
-#enter{
+.enter{
     margin-left: 20px;
     border-radius: 15px;
     width: 90px;  
@@ -83,9 +83,18 @@ li{
     font-size: 15px;  
 }
 
-
 .button-2{
     background-color: black;
     color: ghostwhite;
     width: 220px;
+}
+.study-group{
+    width: 55%;
+    height: 100%;
+    padding-top: 400px;
+}
+.text-study{
+width: 45%;
+height: 100%;
+padding: 190px;
 }
